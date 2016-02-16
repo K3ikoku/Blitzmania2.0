@@ -2,8 +2,7 @@ using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-//namespace UnityStandardAssets.Vehicles.Car
-{
+
     [RequireComponent(typeof (CarController))]
     public class CarUserControl : MonoBehaviour
     {
@@ -60,4 +59,4 @@ using UnityStandardAssets.CrossPlatformInput;
 
         }
     }
-}
+
